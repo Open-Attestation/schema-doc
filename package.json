@@ -1,0 +1,15 @@
+{
+  "name": "schema-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "jsonschema2md -d schema -o document",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@adobe/jsonschema2md": "^4.0.8"
+  }
+}
